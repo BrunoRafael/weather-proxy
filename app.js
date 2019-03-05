@@ -2,7 +2,6 @@ var weatherService = require("./services/weatherService");
 var express = require('express');
 var app = express();
 
-
 app.get('/weather', function (req, res) {
 	weatherService.getWeatherForecast().
 	then((err, data, result) => {
@@ -13,6 +12,10 @@ app.get('/weather', function (req, res) {
             res.json(data);
         }
 	});
+});
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
 });
 
 app.listen(3000, function () {
