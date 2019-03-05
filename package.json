@@ -1,0 +1,23 @@
+{
+  "name": "weather-proxy",
+  "version": "1.0.0",
+  "description": "The server is a proxy for access to yahoo's api while the final application is not ready",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoRafael/weather-proxy.git"
+  },
+  "author": "Bruno Rafael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoRafael/weather-proxy/issues"
+  },
+  "homepage": "https://github.com/BrunoRafael/weather-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "oauth": "^0.9.15"
+  }
+}
