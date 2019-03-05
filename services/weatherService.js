@@ -37,4 +37,4 @@ var weatherService = {
 	}
 }
 
-module.exports = getWeatherForecast;
+module.exports = weatherService;

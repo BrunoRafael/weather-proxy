@@ -1,6 +1,6 @@
+var weatherService = require("./services/weatherService");
 var express = require('express');
 var app = express();
-var weatherService = require("./services/weatherService");
 
 
 app.get('/weather', function (req, res) {
@@ -15,6 +15,6 @@ app.get('/weather', function (req, res) {
 	});
 });
 
-app.listen(3030, function () {
-  console.log('Example app listening on port 3030!');
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
 });
