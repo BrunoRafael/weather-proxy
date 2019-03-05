@@ -4,6 +4,7 @@
   "description": "The server is a proxy for access to yahoo's api while the final application is not ready",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

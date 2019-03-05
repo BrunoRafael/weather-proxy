@@ -1,6 +1,17 @@
 // Require node-oauth package: npm install oauth
 // Copyright 2019 Oath Inc. Licensed under the terms of the zLib license see https://opensource.org/licenses/Zlib for terms.
+/*
+heroku credentials
 
+App ID
+EfGDVF6m
+Client ID (Consumer Key)
+dj0yJmk9YnBpN0E1SWZyYUxlJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTIw
+Client Secret (Consumer Secret)
+a2954fb111fcce1cf977613e601f4705b2738f7c
+
+
+*/
 var OAuth = require('oauth');
 
 const API_URL = 'https://weather-ydn-yql.media.yahoo.com/forecastrss';
